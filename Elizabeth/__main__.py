@@ -39,7 +39,7 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-`Hi..Welcome` [🦋](https://telegra.ph/file/debaabe44781f92783315.jpg)
+`Hi..Welcome` [🦋](https://telegra.ph/file/78a033b5a724b9db7ec0d.jpg)
 `I'm`  єlízαвєth
 `I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..`
 """
@@ -52,10 +52,10 @@ buttons += [[InlineKeyboardButton(text="♻️ ADD ME TO YOUR GROUP ♻️",
                                   url="t.me/Elizabeth_TgBot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="SOURCE CODE 💫",
-                                  url="https://t.me/MR_SHRLOCK/49"),
+buttons += [[InlineKeyboardButton(text="Our Network💫",
+                                  url="https://t.me/Anime_HeavenD"),
              InlineKeyboardButton(text="SUPPORT🌳",
-                                  url="https://t.me/joinchat/oxSPzt02LkgxOTY9"),
+                                  url="https://t.me/Animeheavenhell"),
 ]]
 
 buttons += [[InlineKeyboardButton(text="🎀 CLOSE THE MENU 🎀",
@@ -63,7 +63,7 @@ buttons += [[InlineKeyboardButton(text="🎀 CLOSE THE MENU 🎀",
 
 
 HELP_STRINGS = f"""
-`Hi.. I'm` єlízαвєth[🦋](https://telegra.ph/file/54ed9e0d6eef2cc730f12.jpg)
+`Hi.. I'm` єlízαвєth[🦋](https://telegra.ph/file/78a033b5a724b9db7ec0d.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
@@ -177,7 +177,7 @@ def start(update, context):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_text("Heya, 𝓔𝓵𝓲𝔃𝓪𝓫𝓮𝓽𝓱࿐ Here, How can I help you? 🧐")
+        update.effective_message.reply_text("Heya, Sakura Here, How can I help you? 🧐")
 
 
 
